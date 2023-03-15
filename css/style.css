@@ -36,7 +36,7 @@ body {
     text-align: right;
 }
 
-.link{
+.link {
     text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
@@ -48,14 +48,14 @@ body {
 
 }
 
-.links{
+.links {
     display: inline-block;
 }
 
 .activelink {
     display: inline-block;
     padding: 14px 35px;
-    margin-left: 20px ;
+    margin-left: 20px;
     border-radius: 10px;
     background-color: white;
     text-decoration: none;
@@ -70,7 +70,7 @@ body {
 .links a:hover {
     display: inline-block;
     padding: 14px 35px;
-    margin-left: 20px ;
+    margin-left: 20px;
     border-radius: 10px;
     background-color: white;
     text-decoration: none;
@@ -142,7 +142,7 @@ body {
     color: #000000;
 }
 
-.flighthoteltablinksActive img{
+.flighthoteltablinksActive img {
     transform: rotate(-45deg);
 }
 
@@ -183,7 +183,8 @@ span {
 }
 
 .planeinellipse {
-    border: 2px dashed rgba(0, 0, 0, 0.5);;
+    border: 2px dashed rgba(0, 0, 0, 0.5);
+    ;
     border-radius: 50px;
     margin: 5px;
     margin-right: 27px;
@@ -196,14 +197,14 @@ span {
     display: flex;
     flex-direction: row;
     background-color: #fff;
-    
+
     border: 2px solid rgba(172, 172, 172, 0.5);
     border-radius: 25px;
     padding: 44px 25px;
     max-width: 350px;
     max-height: 154px;
     align-items: center;
-    margin: 10px; 
+    margin: 10px;
     /*width: fit-content;
     padding: 40px;*/
 
@@ -224,7 +225,7 @@ span {
     display: flex;
     flex-direction: row;
     background-color: #fff;
-    
+
     border: 2px solid rgba(172, 172, 172, 0.5);
     border-radius: 25px;
     padding: 44px 25px;
@@ -235,12 +236,12 @@ span {
 
 }
 
-.right{
+.right {
     display: flex;
     flex-direction: column;
 }
 
-.right span{
+.right span {
     display: flex;
     align-items: center;
 }
@@ -251,7 +252,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     -webkit-appearance: none;
 }
 
-#date{
+#date {
     border: none;
     font-family: 'Poppins';
     font-style: normal;
@@ -267,26 +268,26 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: fit-content;
 }
 
-.search_icon{
+.search_icon {
     border: none;
     border-radius: 65px;
     transform: scale(2);
 }
 
-.search_button{
+.search_button {
     height: fit-content;
     background-color: rgba(62, 134, 245, 0.8);
-    padding: 60px ;
+    padding: 60px;
     border-radius: 65px;
     border: none;
     margin: 10px 40px;
     margin-bottom: 30px;
 }
 
-.search_button:hover{
+.search_button:hover {
     height: fit-content;
     background-color: rgba(62, 134, 245, 1);
-    padding: 60px ;
+    padding: 60px;
     border-radius: 65px;
     border: none;
     margin: 10px 40px;
@@ -303,11 +304,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: fit-content;
     border-color: black;
     border-width: 2px;
-     max-width: 100%;
+    max-width: 100%;
     align-content: center;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 /* .tabcontentplanehotel{
     position: relative;
     display: flex;
@@ -373,7 +375,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.buttons{
+.buttons {
     margin: 44px 0px;
     height: fit-content;
     padding: 10px;
@@ -382,14 +384,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border-radius: 10px;
 }
 
-.tab_buttons{
+.tab_buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     /* background-color: white; */
 }
 
-.specialUpcomingOfferscontainer{
+.specialUpcomingOfferscontainer {
     position: relative;
     margin-top: -10;
     display: flex;
@@ -613,7 +615,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: #000000;
 }
 
-.featuretext{
+.featuretext {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -621,7 +623,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     line-height: 54px;
     color: #3E86F5;
 }
-.leftside span{
+
+.leftside span {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
@@ -629,6 +632,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     line-height: 27px;
     color: #000000;
 }
+
 .feature1 {
     display: flex;
     flex-direction: column;
@@ -717,6 +721,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border: none;
     margin-top: 20px;
 }
+
 .buttonContact:hover {
     font-family: 'Poppins';
     font-style: normal;
@@ -758,7 +763,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding-left: 30px;
 }
 
-.locationName1{
+.locationName1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -766,6 +771,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     line-height: 21px;
     color: rgba(0, 0, 0, 0.5);
 }
+
 .cardTitle1 {
     font-family: 'Poppins';
     font-style: normal;
@@ -776,7 +782,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding-left: 30px;
 }
 
-.cardFooter1{
+.cardFooter1 {
     margin-top: 20px;
 }
 
@@ -840,25 +846,26 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 }
 
-.tab_buttons_recommended{
+.tab_buttons_recommended {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    margin-bottom: 50px;  
+    margin-bottom: 50px;
 }
 
-.recommendedDestination{
+.recommendedDestination {
     display: flex;
     flex-direction: column;
 }
 
-#recommendedDestination{
+#recommendedDestination {
     margin-top: 200px;
 }
 
-#Feedbacks{
+#Feedbacks {
     margin-top: 330px;
 }
+
 .quotes {
     position: absolute;
     margin-left: 0px;
@@ -900,7 +907,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 
-.feedbacktext{
+.feedbacktext {
 
     font-family: 'Poppins';
     font-style: normal;
@@ -911,6 +918,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
     color: #000000;
 }
+
 .fieldcontent {
     background-color: white;
     flex-direction: column;
@@ -1049,7 +1057,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 #lastphoto {
     height: 500px;
     /* margin-bottom: 550px; */
-    
+
     background-image: url(../images/unsplash_Q1p7bh3SHj8.png);
     background-size: cover;
     background-position: center;
@@ -1068,7 +1076,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     text-align: right;
 }
 
-.linksfooter a{
+.linksfooter a {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -1080,7 +1088,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 }
 
-.linksfooter a:hover{
+.linksfooter a:hover {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -1101,5 +1109,4 @@ footer {
     margin-top: 120px;
     margin-left: 9%;
     margin-right: 9%;
-
 }
