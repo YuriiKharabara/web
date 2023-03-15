@@ -1,360 +1,357 @@
 <!doctype html>
-<html lang = "en">
+<html lang="en">
 
 <head>
-    <meta charset = "utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Treloo</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <header class="header">
+<body>  
+    <header id="mainPage">
         <div class="header">
             <div class="logo">
                 <img src="images/logo.png" alt="logo">
             </div>
             <nav class="menu">
                 <div class="links">
-                    <a href="#">Review</a>
-                    <a href="#">Tips</a>
-                    <a href="#">Alerts</a>
-                    <a href="#">Blog</a>
+                    <a class="link" href="#">Review</a>
+                    <a class="link" href="#">Tips</a>
+                    <a class="link" href="#">Alerts</a>
+                    <a class="link" href="#">Blog</a>
+                    <a class="activelink" href="#">Blog</a>
                 </div>
             </nav>
         </div>
-    </header>
-    <main>
-        <section id="mainPage">
+
+        <div>
             <div class="MainPage">
-                <div class="mainPage">
-                    <div class="mainPageTitle">
-                        <h1>Discover Your Life, Travel Where You Want</h1>
-                        <p class="mainPageText">
-                            Would you explore natur paradise in the world, let’s find the best destination in world with us.
-                        </p>
+                <div class="mainPageTitle">
+                    <h1>Discover Your Life, Travel Where You Want</h1>
+                    <p class="mainPageText">
+                        Would you explore natur paradise in the world, let’s find the best destination in world with us.
+                    </p>
                 </div>
             </div>
-        </section>
-        <section id="ChooseFlightHotel">
-            <div class="container">
+        </div>
+
+        <div id="ChooseFlightHotel" class="ChooseFlightHotel">
+            <div class="container1">
                 <div class="tabplanehotel">
-                    <button class="flighthoteltablinks" onclick="">
-                        <img src="images/plane.png" alt="plane">
+                    <button class="flighthoteltablinksActive" onclick="">
+                        <img src="images/Airplane Mode On for date.svg" alt="plane">
                         <p>Flight</p>
                     </button>
                     <button class="flighthoteltablinks" onclick="">
-                        <img src="images/hotel.png" alt="hotel">
+                        <img src="images/hotel.svg" alt="hotel">
                         <p>Hotel</p>
                     </button>
                 </div>
                 <div id="Plane" class="tabcontentplanehotel">
-                    <div class="places">
+                    <div class="placesleft">
                         <div class="left">
                             <span>Leaving from</span>
-                            <h3>Dubai</h3>
+                            <input class="cityinput" type="text" placeholder="city">
                         </div>
                         <div class="middle">
-                            <img src="images/Airplane Mode On.svg" alt="Airplane">
-                            <img src="images/Ellipse 1.svg" alt="Elipse">
+                            <img class="planeinellipse" src="images/Airplane Mode On.svg" alt="Airplane">
+                            <!-- <img class="planeinellipse" src="images/Ellipse 1.svg" alt="Elipse"> -->
                         </div>
-                        <div class="right">
+                        <div class="left">
                             <span>Going to</span>
-                            <h3>New York</h3>
-                        </div>  
+                            <input class="cityinput" type="text" placeholder="city">
+                        </div>
                     </div>
-                    <div class="datechoose">
-                        <div class = "left">
+                    <div class="placesright">
+                        <div class="right">
                             <span>Departure <img src="images/Airplane Mode On for date.svg"></span>
                             <input type="date" name="date" id="date">
                         </div>
-                        <div class = "middle">
-                            <img src="images/Planner.svg" alt = "Planner">
-                            <img src="images/Ellipse 1.svg" alt="Elipse">
+                        <div class="middle">
+                            <img class="planeinellipse" src="images/Planner.svg" alt="Planner">
+                            <!-- <img src="images/Ellipse 1.svg" alt="Elipse"> -->
                         </div>
-                        <div class = "right">
+                        <div class="right">
                             <span>Return <img src="images/Airplane Mode On Return.svg"></span>
                             <input type="date" name="date" id="date">
+                        </div>
                     </div>
+                    <button class="search_button">
+                        <img class="search_icon" src="images/icon_search.svg" alt="Search">
+                    </button>
+                </div>
 
-                    <div class="search">
-                        <button class="Search">
-                            <img src="images/Search Ellipse 2.svg" alt="Search">
-                            <img src="images/Search Line 1.svg" alt="Search">
-                            <img src="images/Search Rectangle 6.svg" alt="Search">
-                        </button>
-                    </div>
-                </div>
-                
-                <div id="Hotel" class="tabcontentplanehotel">
-                </div>
             </div>
-        </section>
+        </div>
+    </header>
 
-        <section id="specialUpcomingOffers">
+    <section id="specialUpcomingOffers">
+        <div class="specialUpcomingOfferscontainer">
+            <div class="TitleForSection">
+                <p class="sectionstitle">Special Upcomming Offers</p>
+            </div>
             
-            <div class="container">
-                <h2 class="sectionstitle">Special Upcomming Offers</h2>
-                <div class="tabholder">
-                    <div class="tab">
-                        <button class="tablinks" onclick="">
-                            <img src="images/Rectangle 8.svg" alt="Rectangle">
-                            <p>Team</p>
-                        </button>
-                        <button class="flighthoteltablinks" onclick="">
-                            <p>Couple</p>
-                        </button>
-                        <button class="flighthoteltablinks" onclick="">
-                            <p>Family</p>
-                        </button>
-                    </div>
-                    <div id="Team" class="tabcontent">
-                        <div class="Cards">
-                            <div class="FirstCard">
-                                <div class="cardtop">
-                                    <img src="images/cards (1).png" alt="card" class="cardImage1">
-                                    <p class="date1">14 FEB 2022</p>
-                                </div>
-                                <div class="cardbody">
-                                    <small class="tag1">Relax</small>
-                                    <p class="dur">3 Days, 3 Nights</p>
-                                </div>
-                                <div class="cardfooter">
-                                    <h3 class="cardtitle">Loga Sea</h3>
-                                    <div class="extrainfo">
-                                        <h4 class="price">700$<span class="text">/Person</span></h4>
-                                        <button class="bookButton">Book Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="SecondCard">
-                                <div class="cardtop2">
-                                    <img src="images/cards (2).png" alt="card" class="cardImage2">
-                                    <p class="date2">18 JUN 2022</p>
-                                </div>
-                                <div class="cardbody2">
-                                    <small class="tag2">Adventure</small>
-                                    <p class="dur2">4 Days, 3 Nights</p>
-                                </div>
-                                <div class="cardfooter2">
-                                    <h3 class="cardtitle2">Ansgar Scheffold</h3>
-                                    <div class="extrainfo2">
-                                        <h4 class="price2">400$<span class="text">/Person</span></h4>
-                                        <button class="bookButton">Book Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ThirdCard">
-                                <div class="cardtop3">
-                                    <img src="images/cards (3).png" alt="card" class="cardImage3">
-                                    <p class="date3">22 DEC 2022</p>
-                                </div>
-                                <div class="cardbody3">
-                                    <small class="tag3">Relax</small>
-                                    <p class="dur3">7 Days, 6 Nights</p>
-                                </div>
-                                <div class="cardfooter3">
-                                    <h3 class="cardtitle3">Lona X</h3>
-                                    <div class="extrainfo3">
-                                        <h4 class="price3">340$<span class="text">/Person</span></h4>
-                                        <button class="bookButton">Book Now</button>
-                                    </div>
-                                </div>
+            <nav class = "tab_buttons">
+                <nav class="buttons">
+                <button class="activetablinks" onclick="">
+                    Team
+                </button>
+                <button class="tablinks" onclick="">
+                    Couple
+                </button>
+                <button class="tablinks" onclick="">
+                    Family
+                </button>
+            </nav>
+            </nav>
+            <div id="Team" class="tabcontent">
+                <div class="Cards">
+                    <div class="FirstCard">
+                        <div class="cardtop">
+                            <img src="images/cards (1).png" alt="card" class="cardImage1">
+                            <p class="date">14 FEB 2022</p>
+                        </div>
+                        <div class="cardbody">
+                            <small class="tag">Relax</small>
+                            <p class="dur">3 Days, 3 Nights</p>
+                        </div>
+                        <div class="cardfooter">
+                            <h3 class="cardtitle">Loga Sea</h3>
+                            <div class="extrainfo">
+                                <h4 class="price">700$<span class="text">/Person</span></h4>
+                                <button class="bookButton">Book Now</button>
                             </div>
                         </div>
                     </div>
-                    
-                    <div id="Couple" class="tabcontent">
-                    </div>
-                    <div id="Family" class="tabcontent">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="advertisement">
-            <div class="container">
-                <div class="leftside">
-                    <img src="images/unsplash_tQpypKA92k8.png" alt="travellerphoto">
-                    <div class="features">
-                        <h2>300+</h2>
-                        <span>Destinations</span>
-                    </div>
-                    <div class="features">
-                        <h2>5000+</h2>
-                        <span>Tourists</span>
-                    </div>
-                    <div class="features">
-                        <h2>150+</h2>
-                        <span>Hotels</span>
-                    </div>
-                </div>
-                <div class="rightside">
-                    <h2>Travel Any Corner of The World With Us</h2>
-                    <p class="rightsidetext">
-                        Would you explore nature paradise in the world, let’s find the best destination in world with us, Would you explore nature paradise in the world, let’s find the best destination in world with us. Would you explore nature paradise in the world, let’s find the best destination in world with us.
-    Would you explore nature paradise in the world, let’s find the best destination in world with us.
-                    </p>
-                    <button class="button">Contact us</button>
-
-            </div>
-
-        </section>
-
-        <section id="recommendedDestination">
-            <div class="container">
-                <h2 class="sectionstitle">Special Upcomming Offers</h2>
-                <div class="tabholder">
-                    <div class="tab">
-                        <button class="tablinks" onclick="">
-                            <img src="images/Rectangle 8.svg" alt="Rectangle">
-                            <p>Popular</p>
-                        </button>
-                        <button class="flighthoteltablinks" onclick="">
-                            <p>Adventure</p>
-                        </button>
-                        <button class="flighthoteltablinks" onclick="">
-                            <p>Beath</p>
-                        </button>
-                    </div>
-                    <div id="Team" class="tabcontent">
-                        <div class="cards">
-                            <div class="firstCard">
-                                <p class="starCount1">
-                                    <img src="images/Star.svg" alt="star">
-                                    3.4
-                                </p>
-                                <div class="cardTop1">
-                                    <img src="images/Destination (1).png" alt="card" class="destinationImage1">
-                                </div>
-                                <div class="cardFooter1">
-                                    <h3 class="cardTitle1">Kina Mountain Lake</h3>
-                                    <div class="location1">
-                                        <img src="images/location.png" alt="location">
-                                        <p class="locationName1">Cambodia</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="secondCard">
-                                <p class="starCount2">
-                                    <img src="images/Star.svg" alt="star">
-                                    4.5
-                                </p>
-                                <div class="cardTop2">
-                                    <img src="images/Destination (2).png" alt="card" class="destinationImage2">
-                                </div>
-                                <div class="cardFooter2">
-                                    <h3 class="cardTitle2">Eifel tower</h3>
-                                    <div class="location2">
-                                        <img src="images/location.png" alt="location">
-                                        <p class="locationName2">Paris</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="thirdCard">
-                                <p class="starCount3">
-                                    <img src="images/Star.svg" alt="star">
-                                    4.8
-                                </p>
-                                <div class="cardTop3">
-                                    <img src="images/Destination (3).png" alt="card" class="destinationImage3">
-                                </div>
-                                <div class="cardFooter3">
-                                    <h3 class="cardTitle3">Glass Beach</h3>
-                                    <div class="location3">
-                                        <img src="images/location.png" alt="location">
-                                        <p class="locationName3">USA</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="forthCard">
-                                <p class="starCount4">
-                                    <img src="images/Star.svg" alt="star">
-                                    3.5
-                                </p>
-                                <div class="cardTop4">
-                                    <img src="images/Destination (4).png" alt="card" class="destinationImage4">
-                                </div>
-                                <div class="cardFooter4">
-                                    <h3 class="cardTitle4">Tenerife</h3>
-                                    <div class="location4">
-                                        <img src="images/location.png" alt="location">
-                                        <p class="locationName4">Canary islands</p>
-                                    </div>
-                                </div>
+                    <div class="FirstCard">
+                        <div class="cardtop">
+                            <img src="images/cards (2).png" alt="card" class="cardImage2">
+                            <p class="date">18 JUN 2022</p>
+                        </div>
+                        <div class="cardbody">
+                            <small class="tag2">Adventure</small>
+                            <p class="dur">4 Days, 3 Nights</p>
+                        </div>
+                        <div class="cardfooter">
+                            <h3 class="cardtitle">Ansgar Scheffold</h3>
+                            <div class="extrainfo">
+                                <h4 class="price">400$<span class="text">/Person</span></h4>
+                                <button class="bookButton">Book Now</button>
                             </div>
                         </div>
                     </div>
-                    
-                    <div id="Adventure" class="tabcontent">
-                    </div>
-                    <div id="Beath" class="tabcontent">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="Feedbacks">
-            <div>
-                <div class ="Feedbacktabcontent">
-                    <img src="images/Rectangle 15.svg" alt="Feedback field">
-                    <img src="images/1200px-Cquote2_black 1.svg" alt="quotes">
-                    <p class="feedbacktext">Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.</p>
-                    <a href="#" class="author">-Vand D</a>
-                    <span>Happy Treloo</span>
-                    <div class="Authorinfo">
-                        <img src="images/Ellipse 4.svg" alt="placeforauthorphoto">
-                        <img src="images/Ellipse 3.svg" alt="Author photo">
-                        <div class="grade">
-                            <img src="images/Rectangle 14.svg" alt="Place for grade">
-                            <img src="images/Star.svg" alt="Star">
-                            <span>4.5</span>
+                    <div class="FirstCard">
+                        <div class="cardtop">
+                            <img src="images/cards (3).png" alt="card" class="cardImage3">
+                            <p class="date">22 DEC 2022</p>
+                        </div>
+                        <div class="cardbody">
+                            <small class="tag">Relax</small>
+                            <p class="dur">7 Days, 6 Nights</p>
+                        </div>
+                        <div class="cardfooter">
+                            <h3 class="cardtitle">Lona X</h3>
+                            <div class="extrainfo">
+                                <h4 class="price">340$<span class="text">/Person</span></h4>
+                                <button class="bookButton">Book Now</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class ="Feedbacktabcontent">
-                    <img src="images/Rectangle 15.svg" alt="Feedback field">
-                    <img src="images/1200px-Cquote2_black 1.svg" alt="quotes">
-                    <p class="feedbacktext">Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.</p>
-                    <a href="#" class="author">-Tru Vio</a>
-                    <span>Happy Treloo</span>
-                    <div class="Authorinfo">
-                        <img src="images/Ellipse 4.svg" alt="placeforauthorphoto">
-                        <img src="images/Ellipse 3man.svg" alt="Author photo">
-                        <div class="grade">
-                            <img src="images/Rectangle 14.svg" alt="Place for grade">
-                            <img src="images/Star.svg" alt="Star">
-                            <span>4.9</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="feedbacktab">
-                    <button class="feedbacktablinks" onclick="">
-                        <img src="images/Vector 1.svg" alt="Left arrow">
-                        <img src="images/Rectangle 16.svg" alt="Rectangle">
-                    </button>
-                    <button class="flighthoteltablinks" onclick="">
-                        <img src="images/Vector 2.svg" alt="Left arrow">
-                        <img src="images/Rectangle 16.svg" alt="Rectangle">
-                    </button>
-                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section>
-            <div class="container">
-                <img src="images/unsplash_Q1p7bh3SHj8.png" alt="Earth photo">
-                <h2>Don’t Miss The 50% Discount if You register Today</h2>
-                <button class="Register">Register Today</button>
+    <section id="advertisement">
+        <div class="container">
+            <div class="leftside">
+                <div class="feature1">
+                    <p class="featuretext">300+</p>
+                    <span>Destinations</span>
+                </div>
+                <div class="feature2">
+                    <p class="featuretext">5000+</p>
+                    <span>Tourists</span>
+                </div>
+                <div class="feature3">
+                    <p class="featuretext">150+</p>
+                    <span>Hotels</span>
+                </div>
+                <img src="images/unsplash_tQpypKA92k8.png" alt="travellerphoto">
             </div>
-        </section>
-    </main>
+            <div class="rightside">
+                <p class="Title">Travel Any Corner of The World With Us</p>
+                <p class="rightsidetext">
+                    Would you explore nature paradise in the world, let’s find the best destination in world with us,
+                    Would you explore nature paradise in the world, let’s find the best destination in world with us.
+                    Would you explore nature paradise in the world, let’s find the best destination in world with us.
+                </p>
+                <br />
+                <p class="rightsidetext">
+                    Would you explore nature paradise in the world, let’s find the best destination in world with us.
+                </p>
+                <button class="buttonContact">Contact us</button>
+
+            </div>
+
+    </section>
+
+    <section id="recommendedDestination">
+        <div class="recommendedDestinationcontainer">
+            <div class="TitleForSection">
+                <p class="sectionstitle">Recommended Destination</p>
+            </div>
+            <nav class="tab_buttons_recommended">
+                <button class="activetablinks_recommended" onclick="">
+                    Popular
+                </button>
+                <button class="tablinks_recommended" onclick="">
+                    Adventure
+                </button>
+                <button class="tablinks_recommended" onclick="">
+                    Beath
+                </button>
+            </nav>
+            <div id="Team" class="tabcontent">
+                <div class="cardsrecomended">
+                    <div class="recommendedDestinationcard">
+                        <p class="starCount1">
+                            <img src="images/Star.svg" alt="star">
+                            3.4
+                        </p>
+                        <div class="cardTop1">
+                            <img src="images/Destination (1).png" alt="card" class="destinationImage1">
+                        </div>
+                        <div class="cardFooter1">
+                            <h3 class="cardTitle1">Kina Mountain</h3>
+                            <div class="location1">
+                                <img src="images/location.png" alt="location">
+                                <p class="locationName1">Cambodia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recommendedDestinationcard">
+                        <p class="starCount1">
+                            <img src="images/Star.svg" alt="star">
+                            4.5
+                        </p>
+                        <div class="cardTop1">
+                            <img src="images/Destination (2).png" alt="card" class="destinationImage1">
+                        </div>
+                        <div class="cardFooter1">
+                            <h3 class="cardTitle1">Eifel tower</h3>
+                            <div class="location1">
+                                <img src="images/location.png" alt="location">
+                                <p class="locationName1">Paris</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recommendedDestinationcard">
+                        <p class="starCount1">
+                            <img src="images/Star.svg" alt="star">
+                            4.8
+                        </p>
+                        <div class="cardTop1">
+                            <img src="images/Destination (3).png" alt="card" class="destinationImage1">
+                        </div>
+                        <div class="cardFooter1">
+                            <h3 class="cardTitle1">Glass Beach</h3>
+                            <div class="location1">
+                                <img src="images/location.png" alt="location">
+                                <p class="locationName1">USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recommendedDestinationcard">
+                        <p class="starCount1">
+                            <img src="images/Star.svg" alt="star">
+                            3.5
+                        </p>
+                        <div class="cardTop1">
+                            <img src="images/Destination (4).png" alt="card" class="destinationImage1">
+                        </div>
+                        <div class="cardFooter1">
+                            <h3 class="cardTitle1">Tenerife</h3>
+                            <div class="location1">
+                                <img src="images/location.png" alt="location">
+                                <p class="locationName1">Canary islands</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Feedbacks">
+        <div class="twofeedback">
+            <div class="fieldcontent">
+                <img class="quotes" src="images/1200px-Cquote2_black 1.svg" alt="quotes"/>
+                <p class="feedbacktext">Our trip to Morocco was truly a onece in a lifetime experience and we are so
+                    grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.
+                </p>
+                <a href="#" class="author">-Vand D</a>
+                <span class="happytreloo">Happy Treloo</span>
+                <div class="authorall">
+                    <div class="grade">
+                        <img src="images/Star.svg" alt="Star">
+                        <span>4.5</span>
+                    </div>
+                    <img class= "authorphoto" src="images/Ellipse 3.svg" alt="Author photo">
+                </div>
+            </div>
+            <div class="fieldcontent">
+                <img class="quotes" src="images/1200px-Cquote2_black 1.svg" alt="quotes"/>
+                <p class="feedbacktext">Our trip to Morocco was truly a onece in a lifetime experience and we are so
+                    grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.
+                </p>
+                <a href="#" class="author">-Tru Vio</a>
+                <span class="happytreloo">Happy Treloo</span>
+                <div class="authorall">
+                    <div class="grade">
+                        <img src="images/Star.svg" alt="Star">
+                        <span>4.9</span>
+                    </div>
+                    <img class= "authorphoto" src="images/Ellipse 3man.svg" alt="Author photo">
+                </div>
+            </div>
+        </div>
+        <div class="feedbacktab">
+            <button class="feedbacktablinks" onclick="">
+                <img src="images/Vector 1.svg" alt="Left arrow">
+                <!-- <img src="images/Rectangle 16.svg" alt="Rectangle"> -->
+            </button>
+            <button class="feedbacktablinks" onclick="">
+                <img src="images/Vector 2.svg" alt="Left arrow">
+                <!-- <img src="images/Rectangle 16.svg" alt="Rectangle"> -->
+            </button>
+        </div>
+    </section>
+
+    <section id="lastphoto">
+        <img src="images/unsplash_Q1p7bh3SHj8.png" alt="Earth photo">
+        <div class="finalphoto">
+            <h2>Don’t Miss The 50% Discount if You register Today</h2>
+            <button class="Register">Register Today</button>
+        </div>
+    </section>
+
+
     <footer>
-        <span>© 2022 Treloo LLC - All right reserved.</span>
-        <a href="#">Review</a>
-        <a href="#">Tips</a>
-        <a href="#">Alert</a>
-        <a href="#">Blog</a>
-    </footer> 
+    <span>© 2022 Treloo LLC - All right reserved.</span>
+
+    <nav class="menu">
+        <div class="linksfooter">
+            <a href="#">Review</a>
+            <a href="#">Tips</a>
+            <a href="#">Alerts</a>
+            <a href="#">Blog</a>
+        </div>
+    </nav>
+    </footer>
 
 </body>
