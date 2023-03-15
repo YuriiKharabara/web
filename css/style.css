@@ -571,10 +571,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     flex-direction: column;
     width: fit-content;
     background: #FFFFFF;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
     border-radius: 50px;
     margin-right: 20px;
     margin-top: 20px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
 }
 
 .Cards {
@@ -793,12 +793,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 293px;
     width: 280px;
     background: #FFFFFF;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
     border-radius: 25px;
     margin-top: 27px;
     margin-bottom: 27px;
     margin-left: 20px;
     padding: 10px;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.1);
     /* align-items: center; */
 
 }
