@@ -374,7 +374,25 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     line-height: 27px;
     color: rgba(0, 0, 0, 0.5);
 }
+.tablinks:hover{
+    background-color: #85b2f7;
+    margin: 0px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
 .buttons {
     margin: 44px 0px;
     height: fit-content;
@@ -698,6 +716,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .leftside {
     margin-left: 9%;
+    margin-right: 110px;
 }
 
 .container {
